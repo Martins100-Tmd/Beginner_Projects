@@ -1,0 +1,40 @@
+#main {
+  background-image: url("../src/main.jpg");
+  background-position: 0 15%;
+  min-height: 450px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.t {
+  transform: translate(-50%, -10%);
+}
+#vid {
+  background-image: url("vid.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+.m {
+  background-image: url("Haircut1.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.j {
+  background-image: url("Beard.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 350px;
+  width: 100%;
+}
+@media (max-width: 678px) {
+  #main {
+    min-height: 220px;
+  }
+}

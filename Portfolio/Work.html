@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="./output.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="flex flex-col items-center justify-between sm:w-3/4 w-full mx-auto p-3">
+        <div class="flex flex-row items-center justify-between w-full">
+            <a href="./Index.html">
+                <div class="flex flex-row items-center">
+                    <i style="font-size: 25px" class="fa">&#xf23a;</i>
+                    <p class="font-pop font-semibold text-2xl ml-1">Martins Olumide</p>
+                </div>
+            </a>
+            <ul class="list-none sm:flex flex-row items-center hidden">
+                <a href="./Work.html">
+                    <li class="font-pop text-lg">Works</li>
+                </a>
+                <a href="./About.html">
+                    <li class="font-pop text-lg mx-5 hidden sm:inline">Contact</li>
+                </a>
+                <a href="https://github.com/Martins100-Tmd">
+                    <li class="font-pop text-lg"> <i style="font-size:24px" class="fa">&#xf09b;</i> Source</li>
+                </a>
+            </ul>
+            <i class="fa text-2xl text-center py-3 px-4 rounded bg-orange-200" id="light" onclick="Theme()">&#xf186;</i>
+        </div>
+        <ul class="list-none flex-col items-center w-full inline justify-center sm:hidden">
+            <a href="./Work.html">
+                <li class="font-pop text-lg text-center">Works</li>
+            </a>
+            <a href="./About.html">
+                <li class="font-pop text-lg my-5 text-center">Contact</li>
+            </a>
+            <a href="https://github.com/Martins100-Tmd">
+                <li class="font-pop text-lg text-center"> <i style="font-size:24px" class="fa">&#xf09b;</i> Source</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="sm:w-3/5 w-5/6 bg-opacity-25 font-pop text-base p-4 rounded mx-auto text-center my-5 bg-gray-400">Hello,
+        I am a
+        student
+        developer
+        based in
+        Nigeria!.</div>
+
+    <main class="flex flex-col items-center sm:w-3/5 w-5/6 mx-auto">
+        <div class="flex sm:flex-row justify-between w-full items-stretch flex-col-reverse">
+            <div class="flex flex-col sm:items-start items-center">
+                <h1 class="font-pop font-semibold capitalize text-2xl">Martins Olumide</h1>
+                <p class="font-pop text-sm text-center">Software Engineer (Frontend Engineer/ Devops/ UI/UX designer)
+                </p>
+            </div>
+            <img src="Maui.png" class="h-32 w-32 rounded-full border border-orange-200 object-cover sm:mx-0 mx-auto">
+        </div>
+    </main>
+    <section class="grid sm:grid-cols-3 sm:w-3/5 mx-auto w-5/6 grid-cols-1 items-center mt-5">
+        <a href="https://todotmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    React Todo App (React, Context Api, Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://steakytmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    Mini e-commerce Website (React Router, Context api and Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://quicktmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    Loan Lending Platform Quick Credit (HTML, SCSS, CSS, Javascript).
+                </p>
+            </div>
+        </a>
+        <a href="https://wpmtmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    Word Per Minutes Game(HTML, CSS, Javascript, Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://memorygametmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    Memory Game(HTML, CSS, Typescript, Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://passwordtmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    PassWord Generator(HTML, CSS, Javascript, Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://expensetmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    Expense Tracker(React.js, Context api, Tailwindcss)
+                </p>
+            </div>
+        </a>
+        <a href="https://tailwingtmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    First React static App (React Components).
+                </p>
+            </div>
+        </a>
+        <a href="https://fbtmd.netlify.app" class="w-90 mx-auto">
+            <div class="flex flex-col items-center">
+                <img src="B001.jpg" class="w-full rounded-t object-cover">
+                <p class="font-pop font-semibold text-base text-left py-3">
+                    UI/UX to static Design (HTML, CSS, and Tailwindcss).
+                </p>
+            </div>
+        </a>
+    </section>
+    <footer class="text-center w-full p-4">
+        <p class="text-center text-lg font-pop font-semibold">@ 2022 Martins Olumide, All Rights Reserved.</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+
+</html>
